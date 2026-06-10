@@ -1,0 +1,12 @@
+  {
+    "version": "2.3.0",
+    "release_date": "2026-06-15",
+    "download_url": "https://github.com/Fouuuutuu/DramaDL/releases/download/v2.3.0/DML_v2.3.0_Setup.exe",
+    "mandatory": false,
+    "changelog": [
+      "Add Simple queue-based UI with launch chooser",
+      "Add in-app updater",
+      "Fix DramaBox UI freeze on fast downloads",
+      "Fix StardustTV zero-based episode folders"
+    ]
+  }
