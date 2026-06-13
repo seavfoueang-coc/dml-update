@@ -1,7 +1,7 @@
 {
   "version": "2.4.0",
   "release_date": "2026-06-13",
-  "download_url": "https://github.com/Fouuuutuu/DramaDL/releases/download/v2.4.0/DML_v2.4.0_Setup.exe",
+  "download_url": "https://github.com/seavfoueang-coc/dml-update/releases/download/v2.4.0/DML_v2.4.0_Setup.exe",
   "changelog": [
     "Bundled FlickReels proxy — paid-episode unlocking works out of the box",
     "FlickReels Fast/Slow picker — Fast mode unlocks 89 paid eps in ~3 min via parallel workers",
