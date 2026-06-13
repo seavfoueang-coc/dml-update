@@ -1,12 +1,16 @@
-  {
-    "version": "2.3.0",
-    "release_date": "2026-06-15",
-    "download_url": "https://github.com/Fouuuutuu/DramaDL/releases/download/v2.3.0/DML_v2.3.0_Setup.exe",
-    "mandatory": false,
-    "changelog": [
-      "Add Simple queue-based UI with launch chooser",
-      "Add in-app updater",
-      "Fix DramaBox UI freeze on fast downloads",
-      "Fix StardustTV zero-based episode folders"
-    ]
-  }
+{
+  "version": "2.4.0",
+  "release_date": "2026-06-13",
+  "download_url": "https://github.com/Fouuuutuu/DramaDL/releases/download/v2.4.0/DML_v2.4.0_Setup.exe",
+  "changelog": [
+    "Bundled FlickReels proxy — paid-episode unlocking works out of the box",
+    "FlickReels Fast/Slow picker — Fast mode unlocks 89 paid eps in ~3 min via parallel workers",
+    "Add FlickReels + AnyReel platforms (full mobile-API bypass)",
+    "Add ShortTV / ShortMax (free episodes; locked are server-gated)",
+    "Add Facebook profile reels scrape (cookies for full-profile)",
+    "Settings window: HiDPI fix + scrollable tabs + readable text",
+    "Fix GoodShort downloads freezing the device (AES decryptor bug)",
+    "Fix DramaBox episode filenames zero-padded (Ep01.mp4 etc.)",
+    "Build: bundle PySocks for SOCKS5 proxy support"
+  ]
+}
