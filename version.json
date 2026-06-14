@@ -1,16 +1,16 @@
 {
-  "version": "2.4.0",
-  "release_date": "2026-06-13",
-  "download_url": "https://github.com/seavfoueang-coc/dml-update/releases/download/v2.4.0/DML_v2.4.0_Setup.exe",
+  "version": "2.4.1",
+  "release_date": "2026-06-14",
+  "download_url": "https://github.com/seavfoueang-coc/dml-update/releases/download/v2.4.1/DML_v2.4.1_Setup.exe",
   "changelog": [
-    "Bundled FlickReels proxy — paid-episode unlocking works out of the box",
-    "FlickReels Fast/Slow picker — Fast mode unlocks 89 paid eps in ~3 min via parallel workers",
-    "Add FlickReels + AnyReel platforms (full mobile-API bypass)",
-    "Add ShortTV / ShortMax (free episodes; locked are server-gated)",
-    "Add Facebook profile reels scrape (cookies for full-profile)",
-    "Settings window: HiDPI fix + scrollable tabs + readable text",
-    "Fix GoodShort downloads freezing the device (AES decryptor bug)",
-    "Fix DramaBox episode filenames zero-padded (Ep01.mp4 etc.)",
-    "Build: bundle PySocks for SOCKS5 proxy support"
+    "Fix: UI freeze on AnyReel/DramaBox during long downloads (Worker.run was running on the GUI thread)",
+    "Fix: UI freeze after DramaBox download when Auto-Zip was enabled (now runs on a background thread)",
+    "Fix: AnyReel progress bar stuck at 50% (per-episode 0-100 collided with overall idx/total)",
+    "Fix: Progress bar swing across DramaBox, FlickReels, ShortTV, MyDrama, ShortsDrama (now monotonic 0-100)",
+    "Fix: GUI lag during long batches (cached log fonts/colors, capped log to 1500 lines)",
+    "Fix: Up-to-8s freeze when finishing a download (poster cache was sync on GUI thread; now async)",
+    "Add: AnyReel byte-progress status updates every 2s + 90s stall watchdog",
+    "Add: Threading regression tests pinning the off-GUI invariants for Worker, Zip, and poster cache",
+    "Build: 33/33 tests pass, all touched modules compile clean"
   ]
 }
