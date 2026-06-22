@@ -1,16 +1,15 @@
 {
-  "version": "2.4.1",
-  "release_date": "2026-06-14",
-  "download_url": "https://github.com/seavfoueang-coc/dml-update/releases/download/v2.4.1/DML_v2.4.1_Setup.exe",
+  "version": "2.4.2",
+  "release_date": "2026-06-22",
+  "download_url": "https://github.com/seavfoueang-coc/dml-update/releases/download/v2.4.2/DML_v2.4.2_Setup.exe",
   "changelog": [
-    "Fix: UI freeze on AnyReel/DramaBox during long downloads (Worker.run was running on the GUI thread)",
-    "Fix: UI freeze after DramaBox download when Auto-Zip was enabled (now runs on a background thread)",
-    "Fix: AnyReel progress bar stuck at 50% (per-episode 0-100 collided with overall idx/total)",
-    "Fix: Progress bar swing across DramaBox, FlickReels, ShortTV, MyDrama, ShortsDrama (now monotonic 0-100)",
-    "Fix: GUI lag during long batches (cached log fonts/colors, capped log to 1500 lines)",
-    "Fix: Up-to-8s freeze when finishing a download (poster cache was sync on GUI thread; now async)",
-    "Add: AnyReel byte-progress status updates every 2s + 90s stall watchdog",
-    "Add: Threading regression tests pinning the off-GUI invariants for Worker, Zip, and poster cache",
-    "Build: 33/33 tests pass, all touched modules compile clean"
+    "Fix: DramaShorts showed 'Unknown Series' (site moved movie fields under movieDetails.movie)",
+    "Fix: DramaReels re-downloads now self-heal — files are verified against the remote size instead of being skipped, so old/duplicate clips get replaced",
+    "Fix: StardustTV no longer flashes console windows during downloads (ffmpeg hidden)",
+    "Simple UI: added a full per-episode Download Log (with Copy Log) so errors are easy to find",
+    "Simple UI: new 'Error Eps' column shows exactly which episodes failed for each title",
+    "Simple UI: platform logos are now clickable and open the platform website",
+    "Simple UI: removed the Switch-to-Classic button and the WeTV + DramaReels logos",
+    "Build: 42/42 tests pass, all touched modules compile clean"
   ]
 }
