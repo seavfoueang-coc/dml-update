@@ -1,7 +1,7 @@
 {
-  "version": "2.4.2",
+  "version": "2.5.0",
   "release_date": "2026-06-22",
-  "download_url": "https://github.com/seavfoueang-coc/dml-update/releases/download/v2.4.1/DML_v2.4.2_Setup.exe",
+  "download_url": "https://github.com/seavfoueang-coc/dml-update/releases/download/v2.4.1/DML_v2.5.0_Setup.exe",
   "changelog": [
     "Fix: DramaShorts showed 'Unknown Series' (site moved movie fields under movieDetails.movie)",
     "Fix: DramaReels re-downloads now self-heal — files are verified against the remote size instead of being skipped, so old/duplicate clips get replaced",
