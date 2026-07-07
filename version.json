@@ -1,13 +1,13 @@
 {
-  "version": "2.5.0",
+  "version": "2.6.0",
   "release_date": "2026-07-07",
-  "download_url": "https://github.com/seavfoueang-coc/dml-update/releases/download/v2.5.0/DML_v2.5.0_Setup.exe",
+  "download_url": "https://github.com/seavfoueang-coc/dml-update/releases/download/v2.6.0/DML_v2.6.0_Setup.exe",
   "changelog": [
     "New: TL-SHORT tab - browse/search 434+ dramas, download ALL episodes free (no login/proxy)",
     "New: KissKH tab - search Asian dramas, choose subtitle language, download + .srt",
     "New: FlickReels Version 1/2 selector in Settings",
-    "Fix: stable machine fingerprint (no more false 'bound to another PC')",
-    "Fix: DramaShorts 'Unknown Series', DramaReels stale-file, StardustTV console",
+    "Fix: stable machine fingerprint (no more false bound to another PC)",
+    "Fix: DramaShorts, DramaReels, StardustTV fixes",
     "Simple UI: download log, Error Eps column, clickable logos"
   ]
 }
